@@ -87,7 +87,10 @@ nav{
   padding:6px 18px;border-radius:50px;margin-bottom:24px;
   backdrop-filter:blur(8px);
   animation:fadeDown .8s ease both;
+  text-decoration:none;
+  cursor:pointer;
 }
+.hero-badge:hover{background:rgba(255,255,255,.18)}
 .hero-badge .dot{width:8px;height:8px;background:var(--yellow);border-radius:50%;animation:pulse 1.5s ease infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
 
@@ -682,13 +685,13 @@ footer ul li a:hover{color:white}
   </div>
 
   <div style="margin-bottom:30px;animation:fadeUp .8s ease .1s both;text-align:center">
-    <img src="OctaJunior Logo.jpeg" alt="OctaJunior Logo" style="height:120px;width:auto;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(232,114,12,.6));"/>
+    <img src="images/OctaJunior Logo.jpeg" alt="OctaJunior Logo" style="height:120px;width:auto;object-fit:contain;filter:drop-shadow(0 8px 24px rgba(232,114,12,.6));"/>
   </div>
 
-  <div class="hero-badge">
+  <a class="hero-badge" href="https://docs.google.com/forms/d/e/1FAIpQLScf-_epQBAO79a70xWz43MZI9Ip3VFPJTuDhbTIaEZkS_ma6w/viewform?usp=preview" target="_blank" rel="noopener">
     <span class="dot"></span>
     🚀 New Batch Starting Soon — Limited Seats!
-  </div>
+  </a>
 
   <h1>
     Move Your Kid<br/>
@@ -710,7 +713,7 @@ footer ul li a:hover{color:white}
   </div>
 
   <div class="hero-btns">
-    <button class="btn-primary" onclick="openModal('register')">🎉 Register Now — Rs.9,999</button>
+    <a class="btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScf-_epQBAO79a70xWz43MZI9Ip3VFPJTuDhbTIaEZkS_ma6w/viewform?usp=preview" target="_blank" rel="noopener">🎉 Register Now — Rs.9,999</a>
     <button class="btn-outline" onclick="document.getElementById('program').scrollIntoView({behavior:'smooth'})">Learn More ↓</button>
   </div>
 
@@ -1004,9 +1007,9 @@ footer ul li a:hover{color:white}
           <div class="early-bird-badge">Limited Offer</div>
         </div>
 
-        <button class="price-btn" onclick="openModal('register')">
-          🚀 Enroll Now for Rs.9,999 — Seats Filling Fast!
-        </button>
+       <!-- <button class="price-btn" onclick="openModal('register')">-->
+           <a class="price-btn"  href="https://docs.google.com/forms/d/e/1FAIpQLScf-_epQBAO79a70xWz43MZI9Ip3VFPJTuDhbTIaEZkS_ma6w/viewform?usp=preview" target="_blank" rel="noopener">🚀 Enroll Now for Rs.9,999 — Seats Filling Fast!</a>
+       <!-- </button>-->
       </div>
     </div>
   </div>
@@ -1024,21 +1027,21 @@ footer ul li a:hover{color:white}
         <div class="testi-stars">★★★★★</div>
         <p class="testi-text">"My son used to spend 6 hours on YouTube. Now he spends his weekend building robots and teaching ME what he learned. OctaJunior is genuinely transformative."</p>
         <div class="testi-author">
-          <div class="testi-avatar" style="background:#E8F0FE">👩</div>
+          <div class="testi-avatar" style="background:#E8F0FE">👨</div>
           <div class="testi-author-info">
-            <strong>Priya Sharma</strong>
-            <span>Parent · Mumbai</span>
+            <strong>Akash Hajela</strong>
+            <span>Parent · Noida</span>
           </div>
         </div>
       </div>
       <div class="testi-card">
         <div class="testi-stars">★★★★★</div>
-        <p class="testi-text">"The fact that the kit comes home and there's zero pick & drop was the deciding factor for us. We were travelling to Jaipur and my daughter joined from the hotel — perfect!"</p>
+        <p class="testi-text">"The fact that the kit comes home and there's zero pick & drop was the deciding factor for us. We were travelling to Jaipur and my son joined from the hotel — perfect!"</p>
         <div class="testi-author">
-          <div class="testi-avatar" style="background:#E8F5E9">👨</div>
+          <div class="testi-avatar" style="background:#E8F5E9">👩</div>
           <div class="testi-author-info">
-            <strong>Rajesh Mehta</strong>
-            <span>Parent · Delhi</span>
+            <strong>Vibha B</strong>
+            <span>Parent · G.Noida</span>
           </div>
         </div>
       </div>
@@ -1048,8 +1051,8 @@ footer ul li a:hover{color:white}
         <div class="testi-author">
           <div class="testi-avatar" style="background:#FFF3E0">👩</div>
           <div class="testi-author-info">
-            <strong>Anitha Nair</strong>
-            <span>Parent · Bengaluru</span>
+            <strong>Arpita</strong>
+            <span>Parent · Noida</span>
           </div>
         </div>
       </div>
@@ -1061,7 +1064,7 @@ footer ul li a:hover{color:white}
 <div class="cta-band" id="contact">
   <h2>Your Child's Future Starts This Weekend. 🚀</h2>
   <p>Join 500+ families who chose OctaJunior to give their kids an unfair advantage in tomorrow's world. Only 20 seats per batch.</p>
-  <button class="btn-white" onclick="openModal('register')">Register Now — Rs.9,999</button>
+  <a class="btn-white" href="https://docs.google.com/forms/d/e/1FAIpQLScf-_epQBAO79a70xWz43MZI9Ip3VFPJTuDhbTIaEZkS_ma6w/viewform?usp=preview" target="_blank" rel="noopener">Register Now — Rs.9,999</a>
 </div>
 
 <!-- ── FOOTER ─────────────────────────────────────────────────────── -->
@@ -1077,7 +1080,7 @@ footer ul li a:hover{color:white}
         <a class="social-btn" href="#">📘</a>
         <a class="social-btn" href="#">📸</a>
         <a class="social-btn" href="#">▶️</a>
-        <a class="social-btn" href="https://wa.me/919873693120">💬</a>
+        <a class="social-btn" href="https://wa.me/919773670309">💬</a>
       </div>
     </div>
     <div>
@@ -1104,7 +1107,7 @@ footer ul li a:hover{color:white}
       <h4>Contact Us</h4>
       <ul>
         <li><span>🌐</span><span><a href="https://www.octajunior.com" style="color:rgba(255,255,255,.7);text-decoration:none">www.octajunior.com</a></span></li>
-        <li><span>📱</span><span>+91-9873693120<br/>+91-9773670407</span></li>
+        <li><span>📱</span><span>+91-9873693212<br/>+91-9773670407</span></li>
         <li><span>📧</span><span>contact.octajunior<br/>@gmail.com</span></li>
         <li><span>💬</span><span>WhatsApp us anytime<br/>for quick answers!</span></li>
       </ul>
@@ -1227,7 +1230,7 @@ footer ul li a:hover{color:white}
 window.addEventListener('load', () => {
   const img = document.getElementById('navLogoImg');
   if(img) {
-    img.src = 'OctaJunior Logo.jpeg';
+    img.src = 'images/OctaJunior Logo.jpeg';
     img.style.display = 'block';
     img.onerror = () => {
       img.style.display = 'none';
